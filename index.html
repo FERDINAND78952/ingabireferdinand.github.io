@@ -1,58 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ingabire Ferdinand | Electronics & Telecommunication Engineer | Cybersecurity Analyst | Portfolio">
+    <meta name="keywords" content="Ingabire Ferdinand, Electronics, Telecommunication, Cybersecurity, Network Engineering, Portfolio">
+    <meta name="author" content="Ingabire Ferdinand">
     <title>Ingabire Ferdy | Portfolio</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f9; }
-        header { background: #4CAF50; color: white; padding: 20px; text-align: center; }
-        section { max-width: 900px; margin: 20px auto; padding: 20px; background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        h1, h2 { color: #333; }
-        ul { list-style: none; padding: 0; }
-        ul li { margin: 5px 0; }
-        footer { text-align: center; margin-top: 20px; font-size: 0.9em; color: gray; }
-    </style>
-<header style="background-color: #1a1a2e; color: #e4e4e4; text-align: center; padding: 20px;">
-    <h1 style="font-size: 2.5rem; margin-bottom: 10px;">Ingabire Ferdinand</h1>
-    <p style="font-size: 1.2rem; font-style: italic; margin-bottom: 20px;">
-        Electronics & Telecommunication Engineer | Cybersecurity Analyst | Network Enthusiast
-    </p>
-    <nav style="margin-top: 20px;">
-        <a href="#about" style="margin: 0 15px; color: #00aaff; text-decoration: none; font-weight: bold;">About</a>
-        <a href="#projects" style="margin: 0 15px; color: #00aaff; text-decoration: none; font-weight: bold;">Projects</a>
-        <a href="#contact" style="margin: 0 15px; color: #00aaff; text-decoration: none; font-weight: bold;">Contact</a>
-    </nav>
-</header>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+        }
 
-    <section>
+        header {
+            background: #1a1a2e;
+            color: #e4e4e4;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #00aaff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 5px 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: gray;
+        }
+
+        .skill-progress {
+            width: 100%;
+            background: #e0e0e0;
+            border-radius: 5px;
+        }
+
+        .progress-bar {
+            height: 20px;
+            background-color: #4CAF50;
+            border-radius: 5px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            section {
+                padding: 15px;
+            }
+
+            nav a {
+                font-size: 1rem;
+                margin: 0 10px;
+            }
+
+            footer {
+                font-size: 0.8em;
+            }
+        }
+
+        /* Scroll Animation */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Ingabire Ferdinand</h1>
+        <p>Electronics & Telecommunication Engineer | Cybersecurity Analyst | Network Enthusiast</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="fade-in">
         <h2>About Me</h2>
-        <p>I specialize in electronics, telecommunications, and cybersecurity. My work is driven by a passion for innovation, secure systems, and real-world problem-solving.</p>
+        <p>
+            I am a dynamic professional specializing in <strong>Electronics</strong>, <strong>Telecommunications</strong>, and <strong>Cybersecurity</strong>,
+            with a passion for leveraging cutting-edge technologies to solve complex real-world problems. My work is driven by a commitment to innovation,
+            designing secure systems, and building robust networks that empower businesses and individuals alike.
+        </p>
+        <p>
+            Beyond work, I am an advocate for continuous learning and collaboration, aiming to contribute to a future where technology is accessible, secure, and sustainable.
+        </p>
     </section>
-    <section>
+
+    <section id="projects" class="fade-in">
         <h2>Projects</h2>
+        <p>Below are some of the key projects I have worked on, showcasing my expertise in cutting-edge technologies, secure systems, and innovative solutions.</p>
         <ul>
-            <li>🔑 <b>GZ-Techwire:</b> E-SIM technology and secure offline mapping.</li>
-            <li>📡 <b>IEEE AP-S Design Contest:</b> Beam-tracking antenna systems.</li>
-            <li>🔒 <b>VAPT Reports:</b> Comprehensive vulnerability assessments.</li>
+            <li>
+                🔑 <b>GZ-Techwire:</b> A pioneering platform leveraging <strong>E-SIM technology</strong> for seamless connectivity and secure offline mapping solutions.
+            </li>
+            <li>
+                📡 <b>IEEE AP-S Design Contest:</b> Developed beam-tracking antenna systems to enhance signal precision in dynamic environments, advancing wireless communication technologies.
+            </li>
+            <li>
+                🔒 <b>VAPT Reports:</b> Conducted in-depth <strong>Vulnerability Assessment and Penetration Testing</strong> to identify and mitigate security risks in critical systems.
+            </li>
         </ul>
     </section>
-    <section>
+
+    <section id="skills" class="fade-in">
         <h2>Skills</h2>
+        <p>
+            I bring a diverse skill set rooted in engineering, telecommunications, and cybersecurity, with a focus on solving technical challenges and driving innovation.
+        </p>
         <ul>
-            <li>📡 Antenna Design and Signal Processing</li>
-            <li>🔒 Cybersecurity and Network Intrusion Detection</li>
-            <li>🌐 Advanced Networking and SDN</li>
+            <li>
+                📡 <b>Antenna Design and Signal Processing:</b> Expertise in designing advanced antenna systems for high-performance signal tracking and processing.
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+            </li>
+            <li>
+                🔒 <b>Cybersecurity and Network Intrusion Detection:</b> Proficient in safeguarding systems against vulnerabilities using tools for penetration testing.
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 85%;"></div>
+                </div>
+            </li>
+            <li>
+                🌐 <b>Advanced Networking and Software-Defined Networking (SDN):</b> Skilled in deploying and managing scalable networks with SDN solutions.
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 80%;"></div>
+                </div>
+            </li>
         </ul>
     </section>
-    <section>
-        <h2>Contact</h2>
-        <p>Email: ferdinandingabire@gmail.com</p>
+
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaboration, project discussions, or professional inquiries.</p>
+        <p>Email: <a href="mailto:ferdinandingabire@gmail.com">ferdinandingabire@gmail.com</a></p>
         <p>GitHub: <a href="https://github.com/ingabireferdy">github.com/ingabireferdy</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/ingabire-ferdinand-18a647249/">LinkedIn Profile</a></p>
     </section>
+
     <footer>
-        <p>© 2025 Ingabire Ferdy | Built with GitHub Pages</p>
+        <p>© 2025 Ingabire Ferdy | Built with <a href="#" style="color: #4da6ff; text-decoration: none;">Ferdy_inga</a></p>
     </footer>
 </body>
+
 </html>
